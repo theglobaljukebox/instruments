@@ -1,5 +1,7 @@
 # Instruments Data
 
+The instruments database contains bibliographic information and classification of instruments across ensembles worldwide.
+
 This repository is for pulling, formatting, validating and cleaning the Instruments dataset.
 
 Data is presented in three data tables within raw/
