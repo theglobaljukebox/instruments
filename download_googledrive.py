@@ -62,7 +62,7 @@ def main():
     songs_df = pd.DataFrame(data, columns = header[0])
     # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "songs") & (variable_metadata["visibility"] == "public")]
     # songs_df = songs_df.filter(items = keep_columns["name"])
-    songs_df.to_csv('raw/phrasing.csv', index=False)
+    songs_df.to_csv('raw/instrument.csv', index=False)
     print("successful")
 
     # Society metadata sheet
