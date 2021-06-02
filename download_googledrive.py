@@ -77,4 +77,28 @@ def main():
     society_df.to_csv('raw/societies.csv', index=False)
     print("successful")
 
+    # Coding sheet
+    print("Downloading the coding sheet into codings.csv")
+    SPREADSHEET_ID = '1m5NYa5BLy-AP4PFMvRcxopkH-Q9AET7oW6vWQEJQ-NQ'
+    RANGE_NAME = "'Sheet1'!A2:M184"
+    HEADER_RANGE = "'Sheet1'!A1:M1"
+    data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
+    society_df = pd.DataFrame(data, columns = header[0])
+    # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "societies") & (variable_metadata["visibility"] == "public")]
+    # society_df = society_df.filter(items = keep_columns["name"])
+    society_df.to_csv('raw/codings.csv', index=False)
+    print("successful")
+
+    # Sources
+    print("Downloading Sources into sources.csv")
+    SPREADSHEET_ID = '1Vwx5hcRnt53fHfMj-G8CVulr8r5DsMc1qfg-WL_gDog'
+    RANGE_NAME = "'Bibliography'!A2:O139"
+    HEADER_RANGE = "'Bibliography'!A1:O1"
+    data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
+    society_df = pd.DataFrame(data, columns = header[0])
+    # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "societies") & (variable_metadata["visibility"] == "public")]
+    # society_df = society_df.filter(items = keep_columns["name"])
+    society_df.to_csv('raw/sources.csv', index=False)
+    print("successful")
+
 main()

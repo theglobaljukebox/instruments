@@ -1,0 +1,184 @@
+SORT,VarID,VarTitle,VarDefinition,VarCategory,VarType,Source,UserNotes,VarID_Code,Count,Code,CodeDescription,ShortName
+1,V1,Special info: Instrument sets; Chordo- and Aerophones,"Special information about instrument sets (size, and whether it is tuned or untuned), chordophones (method of string activation), and aerophones (whether vertical or transverse).",Special Info,Categorical,Lomax (1968-77),,1_0,952,0,Missing Data,Missing Data
+2,,,,,,,,1_1,15,1,"A small, untuned set (2-3 instruments)","Small, untuned"
+3,,,,,,,,1_2,3,2,"A medium, untuned set (4-5 instruments)","Medium, untuned"
+4,,,,,,,,1_3,0,3,"A large, untuned set (6 plus instruments)","Large, untuned"
+5,,,,,,,,1_4,29,4,"A small, tuned set","Small, tuned"
+6,,,,,,,,1_5,10,5,"A medium, tuned set","Medium, tuned"
+7,,,,,,,,1_6,25,6,"A large, tuned set","Large, tuned"
+8,,,,,,,,1_7,170,7,Plucked chordophone,Plucked chordophone
+9,,,,,,,,1_8,71,8,Struck chordophone,Struck chordophone
+10,,,,,,,,1_9,102,9,Bowed chordophone,Bowed chordophone
+11,,,,,,,,1_10,329,10,Vertical aerophone,Vertical aerophone
+12,,,,,,,,1_11,74,11,Transverse aerophone,Transverse aerophone
+13,V2,"Special info: Membrano-, Idiophones",Special information about the method by which membranophones or idiophones are activated.,Special Info,Categorical,Lomax (1968-77),,2_0,1463,0,Missing Data,Missing Data
+14,,,,,,,,2_1,74,1,Played with both hands,Both hands
+15,,,,,,,,2_2,41,2,Played with one hand,One hand
+16,,,,,,,,2_3,64,3,Played with one plain stick,One plain stick
+17,,,,,,,,2_4,61,4,Played with two plain sticks,Two plain sticks
+18,,,,,,,,2_5,36,5,Played with one padded stick,One pad stick
+19,,,,,,,,2_6,11,6,Played with two padded sticks,Two pad sticks
+20,,,,,,,,2_7,1,7,Played with a thong,Thong
+21,,,,,,,,2_8,2,8,Played with a bundle of twigs or metal brushes,Twigs/brushes
+22,,,,,,,,2_9,27,9,Any other method of activation,Other
+23,V3,Length,The length of the largest dimension of the instrument.,,Ordinal,Lomax (1968-77),,3_0,320,0,Missing Data,Missing Data
+24,,,,,,,,3_1,261,1,The largest dimension of the instrument is 6 inches or less.,"≤ 6"""
+25,,,,,,,,3_2,283,2,The largest dimension of the instrument is over 6 inches - 1 foot.,"> 6"" - 1'"
+26,,,,,,,,3_3,206,3,The largest dimension of the instrument is over 1 foot - 1 ½ feet.,> 1' - 1.5'
+27,,,,,,,,3_4,175,4,The largest dimension of the instrument is over 1 ½ feet - 2 feet.,> 1.5' - 2'
+28,,,,,,,,3_5,142,5,The largest dimension of the instrument is over 2 feet - 2 ½ feet.,> 2' - 2.5'
+29,,,,,,,,3_6,166,6,The largest dimension of the instrument is over 2 ½ feet - 3 feet.,> 2.5' - 3'
+30,,,,,,,,3_7,123,7,The largest dimension of the instrument is over 3 feet - 4 feet.,> 3' - 4'
+31,,,,,,,,3_8,69,8,The largest dimension of the instrument is over 4 feet - 6 feet.,> 4' - 6'
+32,,,,,,,,3_9,35,9,The largest dimension of the instrument is more than 6 feet.,> 6'
+33,V4,Gender of players,"The typical gender of players of the instrument, as well as instances of gendered prohibition of the instrument.",,Categorical,Lomax (1968-77),,4_0,242,0,Missing Data,Missing Data
+34,,,,,,,,4_1,34,1,The instrument is taboo for women.,Taboo women
+35,,,,,,,,4_2,792,2,The instrument is always played by men.,Always men
+36,,,,,,,,4_3,395,3,The instrument is usually played by men.,Usually men
+37,,,,,,,,4_4,145,4,The instrument is played by either men or women.,Either
+38,,,,,,,,4_5,55,5,The instrument is usually played by women.,Usually women
+39,,,,,,,,4_6,51,6,The instrument is always played by women.,Always women
+40,,,,,,,,4_7,3,7,The instrument is taboo for men.,Taboo men
+41,,,,,,,,4_8,27,8,The instrument is usually played by children (male and female).,Usually children
+42,,,,,,,,4_9,21,9,The instrument is usually played by boys.,Usually boys
+43,,,,,,,,4_10,15,10,The instrument is usually played by girls.,Usually girls
+44,V5,Importance of the instrument in the culture,A judgment of the relative prevalence and importance of the instrument in the culture that it belongs to.,,Categorical,Lomax (1968-77),,5_0,87,0,Missing Data,Missing Data
+45,,,,,,,,5_1,753,1,The instrument is common in the culture.,Common
+46,,,,,,,,5_2,674,2,The instrument is fairly common in the culture.,Fairly common
+47,,,,,,,,5_3,146,3,The instrument is rare in the culture.,Rare
+48,,,,,,,,5_4,120,4,The instrument is rare but important in the culture.,Rare but important
+49,V6,Time Depth,The time of the instrument’s origin in the particular culture named.,,Categorical,Lomax (1968-77),,6_0,85,0,Missing Data,Missing Data
+50,,,,,,,,6_1,1160,1,"The instrument is traditional in the culture, but little or nothing is known about the date of origin.",Traditional
+51,,,,,,,,6_2,118,2,The instrument is traditional in the culture but known to be archaic.,"Traditional, archaic"
+52,,,,,,,,6_3,43,3,The instrument is recently acquired by the culture but rare.,"Recent, rare"
+53,,,,,,,,6_4,151,4,The instrument is recently acquired by the culture and widely used.,"Recent, widely used"
+54,,,,,,,,6_5,132,5,The instrument is part of an archaeological collection; time of origin is very recent to 1000 CE.,1000 CE - recent
+55,,,,,,,,6_6,26,6,The instrument is part of an archaeological collection; time of origin is 1000 CE to 1 CE.,1 - 1000 CE
+56,,,,,,,,6_7,52,7,The instrument is part of an archaeological collection; time of origin is 1 CE to 1000 BCE.,1000 BCE - 1 CE
+57,,,,,,,,6_8,13,8,The instrument is part of an archaeological collection; time of origin is 1000 BCE to 3000 BCE.,3000 - 1000 BCE
+58,,,,,,,,6_9,0,9,The instrument is part of an archaeological collection; time of origin is prior to 3000 BCE.,Prior to 3000 BCE
+59,V7,Number of Functions,The number of functions the instrument has in the culture.,Function,Ordinal,Lomax (1968-77),,7_0,174,0,Missing Data,Missing Data
+60,,,,,,,,7_1,435,1,The instrument has one function.,One
+61,,,,,,,,7_2,541,2,The instrument has two functions.,Two
+62,,,,,,,,7_3,389,3,The instrument has three functions.,Three
+63,,,,,,,,7_4,241,4,The instrument has more than three functions.,More than three
+64,V8,Most Important Function,The most important function of the instrument in the culture.,Function,Categorical,Lomax (1968-77),"If a single functional context of an instrument has several aspects, all of these functions are coded in order of importance on V8-10.",8_0,168,0,Missing Data,Missing Data
+65,,,,,,,,8_1,290,1,Ritual-- magic or religion.,Ritual
+66,,,,,,,,8_2,50,2,Curing rites,Curing
+67,,,,,,,,8_3,30,3,Rites of passage (to adolescence only).,Rites
+68,,,,,,,,8_4,42,4,Courtship,Courtship
+69,,,,,,,,8_5,47,5,"Marriage. Includes betrothal, gift exchange, divorce, etc.",Marriage
+70,,,,,,,,8_6,47,6,Funerary,Funerary
+71,,,,,,,,8_7,31,7,Work,Work
+72,,,,,,,,8_8,85,8,Signalling (other than war).,Signaling
+73,,,,,,,,8_9,38,9,"War. Includes preparation for war, marching, etc.",War
+74,,,,,,,,8_10,387,10,Dance,Dance
+75,,,,,,,,8_11,68,11,Merrymaking,Merrymaking
+76,,,,,,,,8_12,50,12,Calendrical merrymaking,Calendrical merrymaking
+77,,,,,,,,8_13,30,13,Dramatic,Dramatic
+78,,,,,,,,8_14,75,14,Royalty,Royal
+79,,,,,,,,8_15,127,15,Self entertainment,Self-entertainment
+80,,,,,,,,8_16,215,16,"Passive listening. Includes concerts, contemplation, occupational, meditation, entertainment, etc.",Passive listening
+81,,,,,,,,8_17,0,17,Rain-making,Rain
+82,,,,,,,,8_18,0,18,Food-gathering,Food-gathering
+83,,,,,,,,8_19,0,19,Beggars’ instruments,Beggar
+84,,,,,,,,8_20,0,20,"Merchants, pedlars",Merchant
+85,,,,,,,,8_21,0,21,Toy,Toy
+86,,,,,,,,8_22,0,22,Bardic accompaniment,Bardic
+87,V9,Second Most Important Function,The second most important function of the instrument in the culture.,Function,Categorical,Lomax (1968-77),"If a single functional context of an instrument has several aspects, all of these functions are coded in order of importance on V8-10.",9_0,549,0,Missing Data,Missing Data
+88,,,,,,,,9_1,126,1,Ritual-- magic or religion.,Ritual
+89,,,,,,,,9_2,21,2,Curing rites,Curing
+90,,,,,,,,9_3,30,3,Rites of passage (to adolescence only).,Rites
+91,,,,,,,,9_4,20,4,Courtship,Courtship
+92,,,,,,,,9_5,12,5,"Marriage. Includes betrothal, gift exchange, divorce, etc.",Marriage
+93,,,,,,,,9_6,16,6,Funerary,Funerary
+94,,,,,,,,9_7,14,7,Work,Work
+95,,,,,,,,9_8,41,8,Signalling (other than war).,Signaling
+96,,,,,,,,9_9,38,9,"War. Includes preparation for war, marching, etc.",War
+97,,,,,,,,9_10,288,10,Dance,Dance
+98,,,,,,,,9_11,215,11,Merrymaking,Merrymaking
+99,,,,,,,,9_12,54,12,Calendrical merrymaking,Calendrical merrymaking
+100,,,,,,,,9_13,46,13,Dramatic,Dramatic
+101,,,,,,,,9_14,53,14,Royalty,Royal
+102,,,,,,,,9_15,79,15,Self entertainment,Self-entertainment
+103,,,,,,,,9_16,178,16,"Passive listening. Includes concerts, contemplation, occupational, meditation, entertainment, etc.",Passive listening
+104,,,,,,,,9_17,0,17,Rain-making,Rain
+105,,,,,,,,9_18,0,18,Food-gathering,Food-gathering
+106,,,,,,,,9_19,0,19,Beggars’ instruments,Beggar
+107,,,,,,,,9_20,0,20,"Merchants, pedlars",Merchant
+108,,,,,,,,9_21,0,21,Toy,Toy
+109,,,,,,,,9_22,0,22,Bardic accompaniment,Bardic
+110,V10,Third Most Important Function,The third most important function of the instrument in the culture.,Function,Categorical,Lomax (1968-77),"If a single functional context of an instrument has several aspects, all of these functions are coded in order of importance on V8-10.",10_0,1111,0,Missing Data,Missing Data
+111,,,,,,,,10_1,42,1,Ritual-- magic or religion.,Ritual
+112,,,,,,,,10_2,9,2,Curing rites,Curing
+113,,,,,,,,10_3,8,3,Rites of passage (to adolescence only).,Rites
+114,,,,,,,,10_4,10,4,Courtship,Courtship
+115,,,,,,,,10_5,18,5,"Marriage. Includes betrothal, gift exchange, divorce, etc.",Marriage
+116,,,,,,,,10_6,41,6,Funerary,Funerary
+117,,,,,,,,10_7,7,7,Work,Work
+118,,,,,,,,10_8,15,8,Signalling (other than war).,Signaling
+119,,,,,,,,10_9,27,9,"War. Includes preparation for war, marching, etc.",War
+120,,,,,,,,10_10,89,10,Dance,Dance
+121,,,,,,,,10_11,115,11,Merrymaking,Merrymaking
+122,,,,,,,,10_12,35,12,Calendrical merrymaking,Calendrical merrymaking
+123,,,,,,,,10_13,22,13,Dramatic,Dramatic
+124,,,,,,,,10_14,29,14,Royalty,Royal
+125,,,,,,,,10_15,56,15,Self entertainment,Self-entertainment
+126,,,,,,,,10_16,146,16,"Passive listening. Includes concerts, contemplation, occupational, meditation, entertainment, etc.",Passive listening
+127,,,,,,,,10_17,0,17,Rain-making,Rain
+128,,,,,,,,10_18,0,18,Food-gathering,Food-gathering
+129,,,,,,,,10_19,0,19,Beggars’ instruments,Beggar
+130,,,,,,,,10_20,0,20,"Merchants, pedlars",Merchant
+131,,,,,,,,10_21,0,21,Toy,Toy
+132,,,,,,,,10_22,0,22,Bardic accompaniment,Bardic
+133,V11,Symbolism,The symbolic meaning of the instrument as explicitly understood by members of the culture.,,Categorical,Lomax (1968-77),,11_0,1614,0,Missing Data,Missing Data
+134,,,,,,,,11_1,51,1,Animal,Animal
+135,,,,,,,,11_2,4,2,Totem animal,Totem
+136,,,,,,,,11_3,9,3,The voice of the dead,Dead
+137,,,,,,,,11_4,21,4,"Any other supernatural manifestation (spirits, gods, etc.)",Supernatural
+138,,,,,,,,11_5,5,5,Male,Male
+139,,,,,,,,11_6,13,6,Female,Female
+140,,,,,,,,11_7,3,7,Hermaphroditic. Both sexes represented on same instrument.,Hermaphroditic
+141,,,,,,,,11_8,8,8,"Sexual. Known to symbolize the phallus, vagina, etc.",Sexual
+142,,,,,,,,11_9,52,9,Instrument has no known symbolic meaning,None
+143,V12,Typical Body Position,The principal body stance of the player.,,Categorical,Lomax (1968-77),"If several body positions are known to be common, but one is more common than the others, that position is coded.",12_0,478,0,Missing Data,Missing Data
+144,,,,,,,,12_1,571,1,The instrument is played while standing.,Standing
+145,,,,,,,,12_2,103,2,The instrument is played while dancing.,Dancing
+146,,,,,,,,12_3,15,3,The instrument is played while leaning.,Leaning
+147,,,,,,,,12_4,46,4,The instrument is played while kneeling.,Kneeling
+148,,,,,,,,12_5,40,5,The instrument is played while squatting.,Squatting
+149,,,,,,,,12_6,254,6,"The instrument is played while sitting, i.e. on the ground, on a mat, or on a very low bench.",Sitting
+150,,,,,,,,12_7,122,7,"The instrument is played while sitting in a chair, bench, box, or other support.",Sitting (chair)
+151,,,,,,,,12_8,1,8,The instrument is played while lying down.,Lying
+152,,,,,,,,12_9,150,9,Several different body positions are known to be common.,General
+153,V13,Support of the instrument,The mechanism that supports the instrument while it is being played.,,Categorical,Lomax (1968-77),,13_0,264,0,Missing Data,Missing Data
+154,,,,,,,,13_1,90,1,"The instrument is suspended from a frame, etc., or held by anyone but the performer.",Frame
+155,,,,,,,,13_2,129,2,The instrument is hung from the body of the performer. Does not apply when coder can state a specific part of the body.,Hung body
+156,,,,,,,,13_3,15,3,The instrument is held on the performer’s head.,Head
+157,,,,,,,,13_4,45,4,The instrument is held by the performer's mouth. Mouth bows and jew's harps are coded here.,Mouth
+158,,,,,,,,13_5,13,5,"The instrument is held on the performer’s neck, under chin, etc.",Neck
+159,,,,,,,,13_6,796,6,The instrument is held in the hands.,Hands
+160,,,,,,,,13_7,18,7,"The instrument is held on the shoulder, or mainly by the arms.",Shoulder
+161,,,,,,,,13_8,18,8,The instrument is held on the chest.,Chest
+162,,,,,,,,13_9,9,9,The instrument is held on the belly.,Belly
+163,,,,,,,,13_10,4,10,The instrument is held against the pelvis.,Pelvis
+164,,,,,,,,13_11,58,11,The instrument is held in the lap.,Lap
+165,,,,,,,,13_12,19,12,The instrument is held on the thigh.,Thigh
+166,,,,,,,,13_13,16,13,The instrument is held on the knee.,Knee
+167,,,,,,,,13_14,33,14,The instrument is held on the leg or foot.,Leg/foot
+168,,,,,,,,13_15,190,15,The instrument is resting on the ground.,Ground
+169,,,,,,,,13_16,44,16,The instrument is resting on a stand.,Stand
+170,,,,,,,,13_17,19,17,The instrument is supported in some other manner.,Other
+171,V14,Level of resonator,The level or height of the instrument’s resonator in relation to the body of the performer.,,Categorical,Lomax (1968-77),"In aerophones, the “resonator” is the principal orifice of the instrument; in membranophones and idiophones, it is the center of the beaten surface of the instrument; in chordophones, it is the belly or main body of the instrument.",14_0,413,0,Missing Data,Missing Data
+172,,,,,,,,14_1,71,1,The resonator is above the player's head.,Above head
+173,,,,,,,,14_2,407,2,The resonator is at the height of the player's head and neck.,Head
+174,,,,,,,,14_3,57,3,The resonator is at the height of the player's shoulder.,Shoulder
+175,,,,,,,,14_4,221,4,The resonator is at the height of the player's chest.,Chest
+176,,,,,,,,14_5,204,5,The resonator is at the height of the player's belly.,Belly
+177,,,,,,,,14_6,42,6,The resonator is at the height of the player's hips.,Hips
+178,,,,,,,,14_7,67,7,The resonator is at the height of the player's pelvis.,Pelvis
+179,,,,,,,,14_8,31,8,The resonator is at the height of the player's thigh.,Thigh
+180,,,,,,,,14_9,87,9,The resonator is at the height of the player's leg.,Leg
+181,,,,,,,,14_10,42,10,The resonator is at the height of the player's foot and ankle.,Foot
+182,,,,,,,,14_11,11,11,The resonator is underfoot.,Underfoot
+183,,,,,,,,14_12,126,12,The instrument is commonly played with the resonator at several different heights.,General
