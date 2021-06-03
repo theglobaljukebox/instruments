@@ -1,5 +1,9 @@
 # Instruments Data
 
+
+[![DOI](https://zenodo.org/badge/343250666.svg)](https://zenodo.org/badge/latestdoi/343250666)
+
+
 Instruments is a dataset forming part of [The Global Jukebox](https://theglobaljukebox.org/#). 
 For full details including detailed description of the datasets and how to use and interpret them, see:
 
